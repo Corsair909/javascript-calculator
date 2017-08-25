@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A.W.E.S.O.M - O 4000</title>
+    <link rel="stylesheet" href="public/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div id="body" class="row">
+        <div class="form-group">
+            <h5>
+                Calculator A.W.E.S.O.M - O 4000
+            </h5>
+            <input disabled type="text" class="form-control" id="display" value="0">
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <button id="ac" class="btn btn-danger clear_btn" value="AC">
+                        AC
+                    </button>
+                </td>
+                <td>
+                    <button id="ce" class="btn btn-danger clear_btn" value="CE">
+                        CE
+                    </button>
+                </td>
+                <td>
+                    <button class="btn btn-success operation" value="/">
+                        &divide;
+                    </button>
+                </td>
+                <td>
+                    <button class="btn btn-success operation" value="*">
+                        &times;
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button class="btn btn-primary number" value="7">
+                        7
+                    </button>
+                </td>
+                <td>
+                    <button class="btn btn-primary number" value="8">
+                        8
+                    </button>
+                </td>
+                <td>
+                    <button class="btn btn-primary number" value="9">
+                        9
+                    </button>
+                </td>
+                <td>
+                    <button class="btn btn-success operation" value="-">
+                        -
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button class="btn btn-primary number" value="4">
+                        4
+                    </button>
+                </td>
+                <td>
+                    <button class="btn btn-primary number" value="5">
+                        5
+                    </button>
+                </td>
+                <td>
+                    <button class="btn btn-primary number" value="6">
+                        6
+                    </button>
+                </td>
+                <td>
+                    <button class="btn btn-success operation" value="+">
+                        +
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button class="btn btn-primary number" value="1">
+                        1
+                    </button>
+                </td>
+                <td>
+                    <button class="btn btn-primary number" value="2">
+                        2
+                    </button>
+                </td>
+                <td>
+                    <button class="btn btn-primary number" value="3">
+                        3
+                    </button>
+                </td>
+                <td rowspan="2">
+                    <button id="result" class="btn btn-success rowspan2 operation" value="=">
+                        =
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button class="btn btn-primary colspan2 number" value="0">
+                        0
+                    </button>
+                </td>
+                <td>
+                    <button id="decimal" class="btn btn-info" value=".">
+                        .
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<script src="public/script/script.js"></script>
+</body>
+</html>
